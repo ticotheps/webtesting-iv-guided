@@ -5,7 +5,7 @@ const localPg = {
   database: 'hobbits',
   user: 'student',
   password: 'hired'
-}
+};
 
 const productionDbConnection = process.env.DATABASE_URL || localPg;
 
