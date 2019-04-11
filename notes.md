@@ -11,3 +11,8 @@ function name(args) => return something;
 - data access: talk to the persistent data store.
 
 set the test environment to run on 'node' instead of a browser
+
+
+3 Ways to Handle Asynchronous Calls with Testing:
+
+1) Return the promise and give it back to Jest. Jest will wait until the promise is resolved BEFORE executing all the tests.
