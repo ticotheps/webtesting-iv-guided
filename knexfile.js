@@ -38,9 +38,12 @@ module.exports = {
   },
   production: {
     client: 'pg',
-    connection: productionDbConnection //could be an object or a string
-  },
-  seeds: {
-    directory: './data/seeds',
+    connection: productionDbConnection,
+    migrations: {
+      directory: './data/migrations',
+    },
+    seeds: {
+      directory: './data/seeds',
+    }, //could be an object or a string
   },
 };
