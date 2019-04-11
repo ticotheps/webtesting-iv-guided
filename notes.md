@@ -1,5 +1,7 @@
 # server testing
 
+- In the package.json file, 'cross-env' (in the 'scripts') sets an .env variable in your system across ALL platforms
+
 ## components of an api
 
 function name(args) => return something;
